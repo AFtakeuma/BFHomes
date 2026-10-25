@@ -394,15 +394,8 @@ export default function Home() {
                       <div
                         className={`flex justify-center items-center space-x-2 lg:space-x-4 text-gray-600 ${isMobile ? 'text-xs' : isCenter ? 'text-base' : isSide ? 'text-sm' : 'text-xs'}`}
                       >
-                        {(isCenter || isMobile) && (
-                          <>
-                            <span className="text-teal-600 font-bold">{project.price}</span>
-                            <span>•</span>
-                            <span>{project.period}</span>
-                          </>
-                        )}
-                        {isSide && !isMobile && (
-                          <span className="text-teal-600 font-bold text-sm">{project.price}</span>
+                        {(isCenter || isMobile || isSide) && (
+                          <span>{project.period}</span>
                         )}
                       </div>
                     </div>
@@ -507,14 +500,6 @@ export default function Home() {
                     <div className="grid grid-cols-2 gap-3 sm:gap-4">
                       <div>
                         <div className="text-xs sm:text-sm text-gray-500 mb-1">
-                          費用
-                        </div>
-                        <div className="text-lg sm:text-2xl font-bold text-teal-600">
-                          {selectedProject.price}
-                        </div>
-                      </div>
-                      <div>
-                        <div className="text-xs sm:text-sm text-gray-500 mb-1">
                           工期
                         </div>
                         <div className="text-base sm:text-xl font-semibold text-gray-900">
@@ -529,7 +514,7 @@ export default function Home() {
                           {selectedProject.location}
                         </div>
                       </div>
-                      <div>
+                      <div className="col-span-2">
                         <div className="text-xs sm:text-sm text-gray-500 mb-1">
                           完成
                         </div>
@@ -608,9 +593,6 @@ export default function Home() {
                       >
                         {option.name}
                       </label>
-                      <div className="text-teal-600 font-semibold text-sm sm:text-base mt-1">
-                        {option.displayPrice}
-                      </div>
                     </div>
                   </div>
                 ))}
@@ -627,17 +609,9 @@ export default function Home() {
 
               {estimateResult && estimateData.area && (
                 <div className="bg-teal-50 rounded-2xl p-6 lg:p-8 border-2 border-teal-200">
-                  <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-teal-600 mb-2">
-                    {estimateResult.toLocaleString()}円
-                  </div>
-                  <p className="text-base sm:text-lg text-gray-700 mb-2">
-                    概算費用（税込）
+                  <p className="text-base sm:text-lg text-gray-700 mb-4">
+                    ご入力内容を確認いたしました。お見積りは内容に応じて個別にご案内いたします。
                   </p>
-                  {estimateData.selectedOptions.length > 0 && (
-                    <div className="text-sm text-gray-600 mb-4">
-                      基本料金 + 選択オプション料金含む
-                    </div>
-                  )}
                   <Link href="/contact" className="inline-block bg-teal-600 text-white px-6 sm:px-10 py-2 sm:py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-teal-700 transition-all duration-200 whitespace-nowrap cursor-pointer">
                     詳細見積を依頼する
                   </Link>
@@ -681,7 +655,7 @@ export default function Home() {
                 5秒で見積もり
               </h3>
               <p className="text-gray-600 text-center text-base sm:text-lg leading-relaxed">
-                面積と部屋タイプを入力するだけで、即座に概算費用を表示。
+                面積と希望を入力するだけで、次のステップへスムーズに進めます。
               </p>
             </div>
 

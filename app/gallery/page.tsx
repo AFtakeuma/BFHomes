@@ -324,8 +324,7 @@ export default function Gallery() {
                   <h3 className="text-lg font-bold text-gray-900 mb-3 line-clamp-2">
                     {project.title}
                   </h3>
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-2xl font-bold text-teal-600">{project.price}</span>
+                  <div className="flex justify-end items-center mb-4">
                     <span className="text-gray-600">{project.period}</span>
                   </div>
                   <div className="flex justify-between items-center text-sm text-gray-500">
@@ -412,8 +411,7 @@ export default function Gallery() {
                   <h3 className="text-lg font-bold text-gray-900 mb-3 line-clamp-2">
                     {project.title}
                   </h3>
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-2xl font-bold text-teal-600">{project.price}</span>
+                  <div className="flex justify-end items-center mb-4">
                     <span className="text-gray-600">{project.period}</span>
                   </div>
                   <div className="flex justify-between items-center text-sm text-gray-500 mb-4">
@@ -486,12 +484,6 @@ export default function Gallery() {
                   <div className="bg-gray-50 rounded-xl p-6">
                     <div className="grid grid-cols-2 gap-4">
                       <div>
-                        <div className="text-sm text-gray-500 mb-1">費用</div>
-                        <div className="text-2xl font-bold text-teal-600">
-                          {selectedProject.price}
-                        </div>
-                      </div>
-                      <div>
                         <div className="text-sm text-gray-500 mb-1">工期</div>
                         <div className="text-xl font-semibold text-gray-900">
                           {selectedProject.period}
@@ -503,7 +495,7 @@ export default function Gallery() {
                           {selectedProject.location}
                         </div>
                       </div>
-                      <div>
+                      <div className="col-span-2">
                         <div className="text-sm text-gray-500 mb-1">面積</div>
                         <div className="text-lg text-gray-900">
                           {selectedProject.area}

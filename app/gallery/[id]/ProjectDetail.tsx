@@ -682,13 +682,7 @@ export default function ProjectDetail({ projectId }: ProjectDetailProps) {
                   {project.title}
                 </h1>
                 
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
-                  <div className="text-center">
-                    <div className="text-2xl lg:text-3xl font-bold text-teal-600 mb-1">
-                      {project.price}
-                    </div>
-                    <div className="text-sm text-gray-600">費用</div>
-                  </div>
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-8">
                   <div className="text-center">
                     <div className="text-2xl lg:text-3xl font-bold text-gray-900 mb-1">
                       {project.period}
@@ -701,7 +695,7 @@ export default function ProjectDetail({ projectId }: ProjectDetailProps) {
                     </div>
                     <div className="text-sm text-gray-600">面積</div>
                   </div>
-                  <div className="text-center">
+                  <div className="text-center col-span-2 lg:col-span-1">
                     <div className="text-lg lg:text-xl font-bold text-gray-900 mb-1">
                       {project.date}
                     </div>
@@ -722,34 +716,6 @@ export default function ProjectDetail({ projectId }: ProjectDetailProps) {
                 </div>
               </div>
 
-              {/* 費用内訳 */}
-              <div className="bg-white rounded-2xl shadow-sm p-6 lg:p-8 mb-8">
-                <h2 className="text-xl lg:text-2xl font-bold mb-6">費用内訳</h2>
-                <div className="space-y-4">
-                  {Object.entries(project.priceBreakdown).map(([key, value]) => (
-                    <div key={key} className="flex justify-between items-center py-2 border-b border-gray-100">
-                      <span className="text-gray-700">{
-                        key === 'flooring' ? 'フローリング工事' :
-                        key === 'walls' ? '壁工事' :
-                        key === 'lighting' ? '照明工事' :
-                        key === 'cabinets' ? 'キャビネット' :
-                        key === 'countertop' ? 'カウンタートップ' :
-                        key === 'tiles' ? 'タイル工事' :
-                        key === 'fixtures' ? '設備工事' :
-                        key === 'furniture' ? '家具・装飾' :
-                        key === 'storage' ? '収納工事' :
-                        key === 'materials' ? '高級素材' :
-                        key === 'plants' ? '植物・装飾' :
-                        key === 'island' ? 'アイランドキッチン' :
-                        key === 'appliances' ? '調理機器' :
-                        key === 'decor' ? '装飾品' :
-                        key === 'other' ? 'その他' : key
-                      }</span>
-                      <span className="font-semibold text-teal-600">{String(value)}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
 
               {/* 使用素材・特徴 */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-8">
@@ -867,8 +833,7 @@ export default function ProjectDetail({ projectId }: ProjectDetailProps) {
                           className="w-full h-24 object-cover object-top rounded-lg mb-3"
                         />
                         <h5 className="font-semibold text-sm mb-2 line-clamp-2">{similar.title}</h5>
-                        <div className="flex justify-between items-center text-xs text-gray-600">
-                          <span className="text-teal-600 font-semibold">{similar.price}</span>
+                        <div className="flex justify-end items-center text-xs text-gray-600">
                           <span>{similar.period}</span>
                         </div>
                       </div>
