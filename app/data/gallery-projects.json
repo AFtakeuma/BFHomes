@@ -1,0 +1,229 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "slug": "living001",
+      "title": "リビング修繕・その1",
+      "category": "living",
+      "before": "/images/real/project-01-before.jpg",
+      "after": "/images/real/project-01-after.jpg",
+      "description": "行った作業内容: 清掃、壁・天井の壁紙張り替え、電灯・エアコンの取り外しおよび撤去",
+      "workItems": [
+        "清掃",
+        "壁・天井の壁紙張り替え",
+        "電灯・エアコンの取り外しおよび撤去"
+      ],
+      "date": "2023年3月",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "slug": "kitchen001",
+      "title": "キッチン修繕・その1",
+      "category": "kitchen",
+      "before": "/images/real/project-02-before.jpg",
+      "after": "/images/real/project-02-after.jpg",
+      "description": "行った作業内容: 清掃、壁・棚の塗り替え",
+      "workItems": [
+        "清掃",
+        "壁・棚の塗り替え"
+      ],
+      "date": "2023年2月",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "slug": "bathroom001",
+      "title": "浴室（バスルーム）修繕の例・その1",
+      "category": "bathroom",
+      "before": "/images/real/project-03-before.jpg",
+      "after": "/images/real/project-03-after.jpg",
+      "description": "行った作業内容: 浴槽の変更、洗面台の変更、水道・水道位置の変更、壁・天井の変更、電灯の変更",
+      "workItems": [
+        "浴槽の変更",
+        "洗面台の変更",
+        "水道・水道位置の変更",
+        "壁・天井の変更",
+        "電灯の変更"
+      ],
+      "date": "2023年3月",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "slug": "room001",
+      "title": "部屋の修繕・その1",
+      "category": "room",
+      "before": "/images/real/project-04-before.jpg",
+      "after": "/images/real/project-04-after.jpg",
+      "description": "行った作業内容: 清掃、壁紙の張り替え、床シートの張り替え",
+      "workItems": [
+        "清掃",
+        "壁紙の張り替え",
+        "床シートの張り替え"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "slug": "door001",
+      "title": "扉（ドア）の修繕・その1",
+      "category": "door",
+      "before": "/images/real/project-05-before.jpg",
+      "after": "/images/real/project-05-after.jpg",
+      "description": "行った作業内容: ドア枠の塗り替え",
+      "workItems": [
+        "ドア枠の塗り替え"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "slug": "livingkitchen001",
+      "title": "リビングキッチン修繕・その1",
+      "category": "livingkitchen",
+      "before": "/images/real/project-06-before.jpg",
+      "after": "/images/real/project-06-after.jpg",
+      "description": "行った作業内容: 清掃、壁紙張り替え、床シートの張り替え",
+      "workItems": [
+        "清掃",
+        "壁紙張り替え",
+        "床シートの張り替え"
+      ],
+      "date": "2023年2月",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "slug": "room002",
+      "title": "部屋の修繕・その2",
+      "category": "room",
+      "before": "/images/real/project-07-before.jpg",
+      "after": "/images/real/project-07-after.jpg",
+      "description": "行った作業内容: 畳・ふすまの撤去、床を板間に変更、壁紙の張り替え、電灯の変更",
+      "workItems": [
+        "畳・ふすまの撤去",
+        "床を板間に変更",
+        "壁紙の張り替え",
+        "電灯の変更"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "slug": "unit001",
+      "title": "ユニットバス（浴室・トイレ）修繕の例・その1",
+      "category": "unit",
+      "before": "/images/real/project-08-before.jpg",
+      "after": "/images/real/project-08-after.jpg",
+      "description": "行った作業内容: 水回り（水栓・蛇口など）の変更、洗面台の変更、壁材の変更",
+      "workItems": [
+        "水回り（水栓・蛇口など）の変更",
+        "洗面台の変更",
+        "壁材の変更"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "slug": "washroom001",
+      "title": "洗面所の修繕・その1",
+      "category": "washroom",
+      "before": "/images/real/project-09-before.jpg",
+      "after": "/images/real/project-09-after.jpg",
+      "description": "行った作業内容: 清掃、壁紙張り替え、床シートの張り替え、洗面台の入れ替え、洗濯機設置台の入れ替え",
+      "workItems": [
+        "清掃",
+        "壁紙張り替え",
+        "床シートの張り替え",
+        "洗面台の入れ替え",
+        "洗濯機設置台の入れ替え"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "slug": "veranda001",
+      "title": "ベランダ修繕・その1",
+      "category": "veranda",
+      "before": "/images/real/project-10-before.jpg",
+      "after": "/images/real/project-10-after.jpg",
+      "description": "行った作業内容: 清掃、壁・床の防水加工、壁・床の塗り替え",
+      "workItems": [
+        "清掃",
+        "壁・床の防水加工",
+        "壁・床の塗り替え"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "slug": "unit002",
+      "title": "ユニットバス（浴室・トイレ）修繕の例・その2",
+      "category": "unit",
+      "before": "/images/real/project-11-before.jpg",
+      "after": "/images/real/project-11-after.jpg",
+      "description": "行った作業内容: 床材の変更、壁材の変更",
+      "workItems": [
+        "床材の変更",
+        "壁材の変更"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "slug": "toilet001",
+      "title": "トイレ修繕・その1",
+      "category": "toilet",
+      "before": "/images/real/project-12-before.jpg",
+      "after": "/images/real/project-12-after.jpg",
+      "description": "行った作業内容: 清掃、壁紙張り替え、床シートの張り替え",
+      "workItems": [
+        "清掃",
+        "壁紙張り替え",
+        "床シートの張り替え"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "slug": "unit003",
+      "title": "ユニットバス（浴室・トイレ）修繕の例・その3",
+      "category": "unit",
+      "before": "/images/real/project-13-before.jpg",
+      "after": "/images/real/project-13-after.jpg",
+      "description": "行った作業内容: 床材の変更、壁材の変更、水回り（水栓・蛇口など）の変更",
+      "workItems": [
+        "床材の変更",
+        "壁材の変更",
+        "水回り（水栓・蛇口など）の変更"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "slug": "unit004",
+      "title": "ユニットバス（浴室・トイレ）修繕の例・その4",
+      "category": "unit",
+      "before": "/images/real/project-14-before.jpg",
+      "after": "/images/real/project-14-after.jpg",
+      "description": "行った作業内容: 壁材の変更、電灯の変更、水回り（水栓・蛇口・シャワーなど）の変更",
+      "workItems": [
+        "壁材の変更",
+        "電灯の変更",
+        "水回り（水栓・蛇口・シャワーなど）の変更"
+      ],
+      "date": "2023年3月",
+      "featured": false
+    }
+  ]
+}
