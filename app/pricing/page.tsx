@@ -76,7 +76,7 @@ export default function PricingPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20interior%20design%20pricing%20concept%20with%20calculator%20blueprints%20and%20color%20swatches%20on%20clean%20white%20desk%2C%20professional%20renovation%20planning%20tools%2C%20bright%20clean%20background%20with%20natural%20lighting%2C%20minimalist%20style%2C%20business%20consultation%20atmosphere&width=1400&height=900&seq=pricing-hero&orientation=landscape')`
+            backgroundImage: `url('/images/real/hero-living-after.jpg')`
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

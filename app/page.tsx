@@ -19,8 +19,8 @@ export default function Home() {
   const [beforeAfterExamples, setBeforeAfterExamples] = useState([
     {
       id: 1,
-      before: "https://readdy.ai/api/search-image?query=Old%20traditional%20Japanese%20apartment%20interior%20with%20worn%20tatami%20mats%2C%20dark%20wooden%20floors%2C%20outdated%20lighting%20fixtures%2C%20cramped%20layout%2C%20dim%20natural%20lighting%2C%20dated%20wallpaper%2C%20traditional%20but%20tired%20appearance%2C%20simple%20clean%20background&width=800&height=600&seq=1&orientation=landscape",
-      after: "https://readdy.ai/api/search-image?query=Modern%20bright%20Japanese%20apartment%20interior%20with%20light%20wooden%20flooring%2C%20white%20walls%2C%20contemporary%20LED%20lighting%2C%20open%20layout%2C%20large%20windows%20with%20natural%20light%2C%20minimalist%20design%2C%20clean%20and%20spacious%20feeling%2C%20simple%20clean%20background&width=800&height=600&seq=2&orientation=landscape",
+      before: "/images/real/project-01-before.jpg",
+      after: "/images/real/project-01-after.jpg",
       title: "伝統的な和室から現代的なリビングへ",
       description: "明るい木目フローリング + 白基調の壁で開放的な空間に生まれ変わりました。天然木の温もりと白い壁のコントラストが美しく、自然光を最大限に活かした設計となっています。",
       price: "45万円",
@@ -31,8 +31,8 @@ export default function Home() {
     },
     {
       id: 2,
-      before: "https://static.readdy.ai/image/482db82fa6135662cb175aa58592a390/9747dda6203049373e2ef3554fb2c9fb.jfif",
-      after: "https://static.readdy.ai/image/482db82fa6135662cb175aa58592a390/58414e870e011c5caece62221230918d.jfif",
+      before: "/images/real/project-02-before.jpg",
+      after: "/images/real/project-02-after.jpg",
       title: "古いキッチンから機能的な空間へ",
       description: "シンプルで清潔感のあるキッチンに生まれ変わりました。白を基調とした明るい空間で、調理がより楽しくなる機能的なレイアウトを実現。収納も充実し、使い勝手が格段に向上しています。",
       price: "38万円",
@@ -43,8 +43,8 @@ export default function Home() {
     },
     {
       id: 3,
-      before: "https://readdy.ai/api/search-image?query=Old%20small%20Japanese%20bathroom%20with%20outdated%20tiles%2C%20poor%20lighting%2C%20cramped%20space%2C%20traditional%20fixtures%2C%20worn%20surfaces%2C%20dim%20and%20uninviting%20atmosphere%2C%20simple%20clean%20background&width=800&height=600&seq=5&orientation=landscape",
-      after: "https://readdy.ai/api/search-image?query=Modern%20luxurious%20Japanese%20bathroom%20with%20contemporary%20tiles%2C%20bright%20LED%20lighting%2C%20spacious%20layout%2C%20modern%20fixtures%2C%20clean%20surfaces%2C%20spa-like%20atmosphere%20with%20natural%20elements%2C%20simple%20clean%20background&width=800&height=600&seq=6&orientation=landscape",
+      before: "/images/real/project-03-before.jpg",
+      after: "/images/real/project-03-after.jpg",
       title: "狭い浴室からスパのような空間へ",
       description: "現代的なタイル + 高級感のある照明でホテルライクな浴室に変身。防水性能を向上させながら、リラックスできる空間設計を実現しました。",
       price: "52万円",
@@ -55,8 +55,8 @@ export default function Home() {
     },
     {
       id: 4,
-      before: "https://readdy.ai/api/search-image?query=Old%20Japanese%20bedroom%20with%20traditional%20tatami%20flooring%2C%20dark%20wooden%20furniture%2C%20poor%20natural%20lighting%2C%20cramped%20space%2C%20outdated%20traditional%20style%2C%20simple%20clean%20background&width=800&height=600&seq=8&orientation=landscape",
-      after: "https://readdy.ai/api/search-image?query=Modern%20bright%20Japanese%20bedroom%20with%20light%20hardwood%20floors%2C%20contemporary%20furniture%2C%20excellent%20natural%20lighting%2C%20spacious%20layout%2C%20minimalist%20modern%20decor%2C%20simple%20clean%20background&width=800&height=600&seq=9&orientation=landscape",
+      before: "/images/real/project-04-before.jpg",
+      after: "/images/real/project-04-after.jpg",
       title: "昔ながらの寝室からモダン空間へ",
       description: "フローリング + 現代的な家具配置で快適な寝室に。睡眠の質を向上させる照明設計と、収納効率を考慮したレイアウトが特徴です。",
       price: "42万円",
@@ -67,8 +67,8 @@ export default function Home() {
     },
     {
       id: 5,
-      before: "https://readdy.ai/api/search-image?query=Old%20traditional%20Japanese%20entryway%20with%20worn%20wooden%20floors%2C%20outdated%20storage%2C%20poor%20lighting%2C%20cramped%20layout%2C%20traditional%20but%20tired%20appearance%2C%20simple%20clean%20background&width=800&height=600&seq=10&orientation=landscape",
-      after: "https://readdy.ai/api/search-image?query=Modern%20bright%20Japanese%20entryway%20with%20contemporary%20flooring%2C%20efficient%20storage%20solutions%2C%20excellent%20LED%20lighting%2C%20spacious%20organized%20layout%2C%20clean%20minimalist%20design%2C%20simple%20clean%20background&width=800&height=600&seq=11&orientation=landscape",
+      before: "/images/real/project-05-before.jpg",
+      after: "/images/real/project-05-after.jpg",
       title: "玄関から始まる新しい暮らし",
       description: "効率的な収納 + LED照明で機能的な玄関に。第一印象を決める重要な空間として、来客時の印象も大幅に向上させました。",
       price: "28万円",
@@ -79,8 +79,8 @@ export default function Home() {
     },
     {
       id: 6,
-      before: "https://readdy.ai/api/search-image?query=Old%20Japanese%20dining%20area%20with%20traditional%20low%20table%2C%20tatami%20seating%2C%20poor%20lighting%2C%20cramped%20space%2C%20outdated%20traditional%20style%2C%20simple%20clean%20background&width=800&height=600&seq=12&orientation=landscape",
-      after: "https://readdy.ai/api/search-image?query=Modern%20bright%20Japanese%20dining%20area%20with%20contemporary%20dining%20table%2C%20modern%20chairs%2C%20excellent%20lighting%2C%20spacious%20layout%2C%20stylish%20modern%20interior%20design%2C%20simple%20clean%20background&width=800&height=600&seq=13&orientation=landscape",
+      before: "/images/real/project-06-before.jpg",
+      after: "/images/real/project-06-after.jpg",
       title: "食事空間の現代的な変身",
       description: "ダイニングテーブル + モダンチェアで家族団らんの時間をより豊かに。照明計画により食事の時間がより楽しくなる空間に仕上げました。",
       price: "35万円",
@@ -263,7 +263,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20bright%20Japanese%20apartment%20renovation%20showcase%20with%20before%20and%20after%20comparison%2C%20professional%20interior%20design%2C%20clean%20minimalist%20aesthetic%2C%20natural%20lighting%2C%20contemporary%20furniture%2C%20architectural%20photography%20style%2C%20wide%20angle%20view%2C%20simple%20clean%20background&width=1400&height=900&seq=7&orientation=landscape')`
+            backgroundImage: `url('/images/real/hero-living-after.jpg')`
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

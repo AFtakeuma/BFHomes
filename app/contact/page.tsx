@@ -120,7 +120,7 @@ export default function ContactPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20bright%20Japanese%20apartment%20consultation%20room%20with%20comfortable%20seating%2C%20natural%20lighting%2C%20clean%20minimalist%20design%2C%20professional%20atmosphere%2C%20contemporary%20furniture%2C%20architectural%20photography%20style%2C%20simple%20clean%20background&width=1400&height=800&seq=contact1&orientation=landscape')`
+            backgroundImage: `url('/images/real/hero-living-after.jpg')`
           }}
         />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

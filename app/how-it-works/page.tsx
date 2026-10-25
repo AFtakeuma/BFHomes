@@ -20,7 +20,7 @@ export default function HowItWorks() {
         "実際の施工事例のため安心",
         "費用目安も同時に確認可能"
       ],
-      image: "https://readdy.ai/api/search-image?query=Person%20looking%20at%20renovation%20photos%20on%20smartphone%2C%20multiple%20before%20and%20after%20interior%20design%20images%20displayed%20on%20screen%2C%20modern%20apartment%20setting%2C%20natural%20lighting%2C%20clean%20minimalist%20aesthetic%2C%20professional%20photography%20style%2C%20simple%20clean%20background&width=600&height=400&seq=14&orientation=landscape",
+      image: "/images/real/project-07-before.jpg",
       icon: "ri-heart-line",
       color: "teal"
     },
@@ -35,7 +35,7 @@ export default function HowItWorks() {
         "リアルタイムで概算費用を表示",
         "追加料金の心配なし"
       ],
-      image: "https://readdy.ai/api/search-image?query=Person%20measuring%20apartment%20room%20with%20smartphone%20app%2C%20tape%20measure%20and%20calculator%20visible%2C%20modern%20interior%20space%2C%20natural%20lighting%2C%20professional%20measurement%20tools%2C%20clean%20organized%20environment%2C%20simple%20clean%20background&width=600&height=400&seq=15&orientation=landscape",
+      image: "/images/real/project-07-after.jpg",
       icon: "ri-ruler-line",
       color: "orange"
     },
@@ -50,7 +50,7 @@ export default function HowItWorks() {
         "24時間以内に専門スタッフが回答",
         "無料相談で安心スタート"
       ],
-      image: "https://readdy.ai/api/search-image?query=Person%20filling%20out%20consultation%20form%20on%20smartphone%2C%20professional%20interior%20designer%20consultation%2C%20modern%20office%20setting%2C%20natural%20lighting%2C%20clean%20workspace%20with%20renovation%20plans%2C%20simple%20clean%20background&width=600&height=400&seq=16&orientation=landscape",
+      image: "/images/real/project-08-before.jpg",
       icon: "ri-mail-line",
       color: "teal"
     }
@@ -93,7 +93,7 @@ export default function HowItWorks() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Step%20by%20step%20renovation%20process%20illustration%2C%20modern%20Japanese%20apartment%20transformation%2C%20professional%20interior%20design%20workflow%2C%20clean%20minimalist%20aesthetic%2C%20natural%20lighting%2C%20architectural%20photography%20style%2C%20simple%20clean%20background&width=1400&height=900&seq=17&orientation=landscape')`
+            backgroundImage: `url('/images/real/project-08-after.jpg')`
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -283,7 +283,7 @@ export default function HowItWorks() {
             </div>
             <div>
               <img
-                src="https://readdy.ai/api/search-image?query=Construction%20progress%20tracking%20on%20smartphone%20app%2C%20renovation%20work%20updates%20with%20photos%2C%20professional%20construction%20site%20management%2C%20modern%20technology%20interface%2C%20clean%20organized%20workspace%2C%20simple%20clean%20background&width=600&height=500&seq=18&orientation=landscape"
+                src="/images/real/project-09-before.jpg"
                 alt="工事進捗管理"
                 className="w-full h-80 sm:h-96 object-cover object-top rounded-2xl shadow-lg"
               />

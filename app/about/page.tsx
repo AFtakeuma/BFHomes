@@ -16,7 +16,7 @@ export default function About() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20Japanese%20apartment%20renovation%20concept%20illustration%20showing%20traditional%20old%20room%20transforming%20into%20contemporary%20bright%20space%2C%20clean%20architectural%20drawing%20style%2C%20minimalist%20design%2C%20professional%20business%20presentation%20aesthetic%2C%20simple%20clean%20background&width=1400&height=800&seq=about1&orientation=landscape')`
+            backgroundImage: `url('/images/real/hero-living-after.jpg')`
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -178,7 +178,7 @@ export default function About() {
                   写真で一目瞭然
                 </h3>
                 <img
-                  src="https://readdy.ai/api/search-image?query=Split%20screen%20showing%20before%20and%20after%20Japanese%20apartment%20renovation%2C%20left%20side%20shows%20old%20traditional%20room%20with%20worn%20tatami%20and%20dark%20wood%2C%20right%20side%20shows%20modern%20bright%20space%20with%20contemporary%20flooring%20and%20lighting%2C%20clean%20comparison%20layout%2C%20professional%20real%20estate%20photography%20style%2C%20simple%20clean%20background&width=400&height=300&seq=about2&orientation=landscape"
+                  src="/images/real/project-01-after.jpg"
                   alt="Before After comparison"
                   className="w-full h-48 object-cover object-top rounded-2xl mb-6"
                 />
@@ -198,7 +198,7 @@ export default function About() {
                   5秒で見積もり
                 </h3>
                 <img
-                  src="https://readdy.ai/api/search-image?query=Modern%20smartphone%20showing%20instant%20renovation%20cost%20calculator%20app%20with%20simple%20interface%2C%20clean%20numbers%20and%20pricing%20display%2C%20contemporary%20mobile%20UI%20design%2C%20professional%20app%20screenshot%20style%2C%20bright%20clean%20background&width=400&height=300&seq=about3&orientation=landscape"
+                  src="/images/real/project-02-after.jpg"
                   alt="Quick estimate"
                   className="w-full h-48 object-cover object-top rounded-2xl mb-6"
                 />
@@ -218,7 +218,7 @@ export default function About() {
                   スマホで完結
                 </h3>
                 <img
-                  src="https://readdy.ai/api/search-image?query=Person%20using%20smartphone%20to%20manage%20home%20renovation%20project%2C%20showing%20progress%20photos%20and%20communication%20with%20contractors%2C%20modern%20mobile%20app%20interface%2C%20contemporary%20lifestyle%20photography%2C%20clean%20professional%20background&width=400&height=300&seq=about4&orientation=landscape"
+                  src="/images/real/project-07-after.jpg"
                   alt="Mobile complete solution"
                   className="w-full h-48 object-cover object-top rounded-2xl mb-6"
                 />
@@ -246,7 +246,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
               <img
-                src="https://readdy.ai/api/search-image?query=Professional%20renovation%20team%20working%20on%20Japanese%20apartment%20interior%2C%20showing%20skilled%20craftsmen%20installing%20modern%20flooring%20and%20lighting%2C%20high%20quality%20workmanship%2C%20contemporary%20construction%20process%2C%20clean%20professional%20environment%2C%20natural%20lighting&width=600&height=400&seq=about5&orientation=landscape"
+                src="/images/real/project-02-before.jpg"
                 alt="Professional renovation process"
                 className="w-full h-80 object-cover object-top rounded-3xl shadow-lg"
               />
@@ -327,21 +327,21 @@ export default function About() {
                 property: "東京都渋谷区 1LDK",
                 rating: 5,
                 comment: "写真を見て選ぶだけで、想像以上の仕上がりになりました。専門知識がなくても安心して任せられる素晴らしいサービスです。",
-                avatar: "https://readdy.ai/api/search-image?query=Professional%20Japanese%20middle-aged%20man%20in%20business%20suit%2C%20friendly%20smile%2C%20clean%20portrait%20photography%2C%20corporate%20headshot%20style%2C%20bright%20clean%20background&width=150&height=150&seq=avatar1&orientation=squarish"
+                avatar: "/images/real/about-team.jpg"
               },
               {
                 name: "佐藤様",
                 property: "東京都新宿区 2DK",
                 rating: 5,
                 comment: "5秒で見積もりが出るのには驚きました。従来の面倒な手続きが一切なく、スムーズに進められました。",
-                avatar: "https://readdy.ai/api/search-image?query=Professional%20Japanese%20woman%20in%20business%20attire%2C%20warm%20smile%2C%20clean%20portrait%20photography%2C%20corporate%20headshot%20style%2C%20bright%20clean%20background&width=150&height=150&seq=avatar2&orientation=squarish"
+                avatar: "/images/real/about-team.jpg"
               },
               {
                 name: "山田様",
                 property: "東京都港区 3LDK",
                 rating: 5,
                 comment: "スマホで全て完結できるのが本当に便利。忙しい中でも進捗を確認できて、安心して任せられました。",
-                avatar: "https://readdy.ai/api/search-image?query=Professional%20Japanese%20senior%20man%20with%20glasses%2C%20confident%20expression%2C%20clean%20portrait%20photography%2C%20corporate%20headshot%20style%2C%20bright%20clean%20background&width=150&height=150&seq=avatar3&orientation=squarish"
+                avatar: "/images/real/about-team.jpg"
               }
             ].map((testimonial, index) => (
               <div key={index} className="bg-white p-8 rounded-3xl shadow-lg">

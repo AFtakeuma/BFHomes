@@ -1,0 +1,71 @@
+{
+  "projects": {
+    "1": {
+      "slug": "living001",
+      "before": "/images/real/project-01-before.jpg",
+      "after": "/images/real/project-01-after.jpg"
+    },
+    "2": {
+      "slug": "kitchen001",
+      "before": "/images/real/project-02-before.jpg",
+      "after": "/images/real/project-02-after.jpg"
+    },
+    "3": {
+      "slug": "bathroom001",
+      "before": "/images/real/project-03-before.jpg",
+      "after": "/images/real/project-03-after.jpg"
+    },
+    "4": {
+      "slug": "room001",
+      "before": "/images/real/project-04-before.jpg",
+      "after": "/images/real/project-04-after.jpg"
+    },
+    "5": {
+      "slug": "door001",
+      "before": "/images/real/project-05-before.jpg",
+      "after": "/images/real/project-05-after.jpg"
+    },
+    "6": {
+      "slug": "livingkitchen001",
+      "before": "/images/real/project-06-before.jpg",
+      "after": "/images/real/project-06-after.jpg"
+    },
+    "7": {
+      "slug": "room002",
+      "before": "/images/real/project-07-before.jpg",
+      "after": "/images/real/project-07-after.jpg"
+    },
+    "8": {
+      "slug": "unit001",
+      "before": "/images/real/project-08-before.jpg",
+      "after": "/images/real/project-08-after.jpg"
+    },
+    "9": {
+      "slug": "washroom001",
+      "before": "/images/real/project-09-before.jpg",
+      "after": "/images/real/project-09-after.jpg"
+    },
+    "10": {
+      "slug": "veranda001",
+      "before": "/images/real/project-10-before.jpg",
+      "after": "/images/real/project-10-after.jpg"
+    },
+    "11": {
+      "slug": "unit002",
+      "before": "/images/real/project-11-before.jpg",
+      "after": "/images/real/project-11-after.jpg"
+    },
+    "12": {
+      "slug": "toilet001",
+      "before": "/images/real/project-12-before.jpg",
+      "after": "/images/real/project-12-after.jpg"
+    }
+  },
+  "extras": {
+    "hero-living": "/images/real/hero-living-after.jpg",
+    "hero-kitchen": "/images/real/hero-kitchen-after.jpg",
+    "hero-bathroom": "/images/real/hero-bathroom-after.jpg",
+    "about-team": "/images/real/about-team.jpg",
+    "favicon": "/images/real/project-01-after.jpg"
+  }
+}
